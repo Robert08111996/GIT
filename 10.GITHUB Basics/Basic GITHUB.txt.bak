@@ -1,0 +1,11 @@
+1.git clone <url> - This command is used to clone the git that where in the repo.
+
+   Suppose we have the GIT in local alone and we try to push that GITHUB or cloud GIT envt do the following steps
+2.git remote -v =This command is used to find whether any name is allocated or not.
+3. git remote add <name> <url> - This is used to add URL to the git repo.
+4. git remote rename <oldname> <newname>
+5 .git remote remove <new>
+6. git branch -m "the name we wanted to give" - this will rename the branches.
+7. git push <remote name> <local name>:<github branch name> - This command is for, suppose we want to push something to github branch that we are having in local branch
+ we can use this command.
+  git push origin cats:master - we can push the files from one branch to another branch using this command.

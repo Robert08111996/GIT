@@ -1,0 +1,9 @@
+1.git reflog show HEAD - This is the most commonly used command.It will show all reflog. In git there will be .git folder, inside that .git folder there will be reflogs <D:\GIT\Merge\.git\logs>
+that only it will display.
+2.git reflog delete
+3.git reflog expire
+4.git reflog exists
+5.git reflog show HEAD@{10}- This will show the reflog HEAD starting from 10.
+6.git reflog master@{one.week.ago} -It will show the reflog of master that is one week ago.
+7.git checkout master@{2.days.ago}- This will checkout to the 2 days ago ones.
+8.git diff main@{0} main@{yesterday} -It will show the difference.

@@ -1,0 +1,6 @@
+1.git log --abbrev-commit
+  git log --oneline
+  
+2.Amending a commits
+  git commit --amend  = it will replace the previous commit. This will work only if we foreget to add anything in previous commit.
+

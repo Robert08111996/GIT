@@ -1,0 +1,14 @@
+There are 2 types of tag they are
+1. Lightweight Tag
+2. Annotated Tag
+
+1.git tag - it will list all the tag are used.
+2.git tag -l "*beta*" - This command is used to find a particular tag with name. In this tag it will list the tag with the name as beta, if anything has in beta it will be listed.
+3.git checkout "tag" - THis will go to the particular tag, like that commit and we can make a new branch with that commit.
+4.git diff "one tag" "other tag" - This is used to find the difference of those 2 tags.
+5.git tag "tag number" - this will do lightweight tag.
+6.git tag -a "tag number" - THis will create an annotated tag, so after giving like this the editor will open and we need to give a message on that editor.
+7.git show "tag number" -This will show the information about that tag.
+8.git tag <tagname> <commitid> - This is used to tag a previous commit.
+9.git tag <tagname> <commitid> -f = This is used move the tags to other commits
+10.git tag -d <tagname>- this will delete the tag.

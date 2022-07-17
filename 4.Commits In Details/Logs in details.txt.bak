@@ -1,0 +1,2 @@
+git log --abbrev-commit
+git log --oneline

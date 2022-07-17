@@ -1,0 +1,1 @@
+1. git merge < branch name> - this will merge the branches. To merge the branch you need to be on the Head or the branch that you want other branches to merge.

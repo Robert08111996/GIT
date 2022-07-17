@@ -1,0 +1,12 @@
+1. git stash save or git stash - it will save the changes that we done to the particular file and stored in stash.
+2. git stash pop - it will revert the changes that we stashed to that particular file.
+3. git stash apply - it will be usefull to apply the stashed changes across all the branches.
+
+if we use git pop the stored or saved changes will not be there in stash, it will come to the particular file. But if we use git stash apply the changes still will be there in
+stashed area and we can use in multiple branches.
+4. git stash list - it will list the stash changes that where stashed in the file.
+5. git stash apply <stash id> - it will apply that particular stash alone.
+   git stash apply stash@{3} -
+6.git stash drop <stash id> - it will remove the particular stash.
+  git stash drop stash@{3}   
+7. git stash clear - it will clear all the stash.  

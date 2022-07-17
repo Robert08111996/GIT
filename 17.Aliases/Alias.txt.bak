@@ -1,0 +1,2 @@
+we can set alias in .gitconfig file.
+1.git config --global alias.b branch - we can set alias using cmd itself. Here for branch we set alias as b.

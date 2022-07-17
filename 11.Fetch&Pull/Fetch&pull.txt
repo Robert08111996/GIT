@@ -1,0 +1,14 @@
+1.git branch -r = this will show the remote branch and the main branch.
+ If we clone a repo from GITHUB there will be two master or main like main and origin/main. The origin/main indicates whatever we cloned or the code in GITHUB it will show that
+ point alone.  If we commit a new one then the main will move to next commit but origin/main will be on same point as in github. To make this correct we need to push that code to GITHUB.
+2.git checkout origin/main - THis will go as a detached head state.
+
+  Suppose we are cloning a Repo from GITHUB which has four branches like main,food,movie,games the default branch will be cloned. In github if main was default one then the main 
+  will be a default branch. But we need to see all four branches, if we give command git branch we can only see main branch alone. But if we give command git branch -r we can see
+  four remote branches. so to get those branches use the command git switch i.e if you give git switch food then food branch will be there.
+3. git switch "branch name"
+4. git fetch <remote> <branch> - The functionality of git fetch is that, suppose we are working in a repo and made some changes and commited, but somebody from same project have 
+  cloned, worked and pushed the files to get that or to look that we can use this command. It will bring our changes to local repository, will not mingle with working directory.
+5. git checkout "origin/branch" like git checkout origin/main - If anything changed on repo and we had fetched that and we want to see that we can use this command.
+6. git pull =git fetch + git merge
+7. git pull <remote> <branch> i.e git pull origin main

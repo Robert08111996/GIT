@@ -1,0 +1,10 @@
+1. git diff - this will show the difference in working directory and changes to be commited in staging area.
+2. git diff <filename> - this will show the difference of particular file alone.
+2. git diff HEAD - this will show the difference that till now what we commited in staging area.
+3. git diff --staged or git diff --cached - this will show the difference that's there in staged.
+4. git diff --staged <filename> - this will show on the particular file alone.
+5. git diff HEAD <filename> - this will show all the changes done on the particular file.
+6. git diff HEAD <filename> <filename> - 
+7. git diff <branch1>..<branch2> - this will show the difference on the branch.
+8. git diff <branch1>..<branch2> filename- it will show the difference of that particular file name in both the branch.
+9. git diff <commitid 1>..<commitid 2> - this will show the difference on the commits.

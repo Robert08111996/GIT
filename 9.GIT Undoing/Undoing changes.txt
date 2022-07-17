@@ -1,0 +1,16 @@
+Undoing changes
+1.git checkout <commit id> - this command will move towards the commit id and it will be in detached position. i.e the codes will be moved to that particular commits.
+2.git switch <branch name> - now we have checkout to that commit id, so to go back to the original HEAD position we need to switch it, then all the commits will be come.
+3.git checkout <commit id> then create a branch from that particular commit id then switch to that branch and do all the stuffs, then switch back to original branch to get all commits.
+4.git checkout HEAD~1 -The HEAD refers to the last commmit,but HEAD~1 refers to the previous commit of last commit. HEAD~2 refers to previous last 2 commits, like that it will goes.
+5.git switch -  -if we give git checkout and forgot in which branch we are working then we can use this command to go back to the previous branch.
+6.git checkout HEAD filename - suppose we added unwanted codes in that file and we don't know what we added and need to go back to previous head position we can use this command.
+  git checkout -- filename - this command also we can use.
+7. git restore filename - this also will do the same work.
+8. git restore --source HEAD~1 <filename> - This command will move to that HEAD position, like git checkout HEAD~1.
+9. git restore --staged  <filename> - To bring back the staged changes.
+10. git reset <commit id> - if we accidently commited the unwanted changes or instead of commiting to other branch we commited in wrong branch we can use this command.Then we can
+   switch to that branch and do commit and coming back to the branch that will not be there in current branch.
+11. git reset --hard <commit id> - This will reset the code whatever is there in till that commit id.
+12. git revert <commit id> - This will be usefull if we are working in a group, and we want to revert that to first commit or the commit we wanted, so the history will be there and
+in future we can refer to that commits.

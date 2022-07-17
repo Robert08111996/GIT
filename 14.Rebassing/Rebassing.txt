@@ -1,0 +1,8 @@
+git rebase <branch name> - This command is used for rebasing the project. The rebase is used for like when we use git merge it will combine from 2 branch and make a new commit id.
+But if we use a git rebase then the commit id will be created newly for existing branch. The commit id from the merging branch will be same.
+
+2. git rebase --abort - this will abort when there is conflict.
+3. or fix the conflict then run the command git add . and git rebase --continue
+4. git rebase -i HEAD~4 = this command is used for like if we want to reword the commit or edit or drop etc.. so after that commit id every commit id after that will change.
+  we can use reword, fixup, pick etc..
+5. git commit --amend - it will open the commit message and we can rename it.
